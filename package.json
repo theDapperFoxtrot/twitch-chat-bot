@@ -1,0 +1,17 @@
+{
+  "name": "twitch-stuff",
+  "version": "1.0.0",
+  "description": "chat-bot",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "moi",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "nodemon": "^2.0.16",
+    "tmi.js": "^1.8.5"
+  }
+}
