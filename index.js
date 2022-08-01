@@ -48,4 +48,8 @@ client.on("message", (channel, tags, message, self) => {
   if (msg.indexOf("github") >= 0) {
     client.say(channel, `https://github.com/theDapperFoxtrot thedap17Ayy`);
   }
+
+  if (msg.match(/\bsite\b/gi) != null || msg.indexOf("website") >= 0) {
+    client.say(channel, `https://dapperfans.com/ thedap17Ayy`);
+  }
 });
