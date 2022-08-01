@@ -34,5 +34,7 @@ client.on("message", (channel, tags, message, self) => {
       channel,
       `https://www.youtube.com/channel/UC3CshKcydQEdd2zMfd9UsAg thedap17Ayy`,
     );
+  } else if (msg.indexOf("github") >= 0) {
+    client.say(channel, `https://github.com/theDapperFoxtrot thedap17Ayy`);
   }
 });
