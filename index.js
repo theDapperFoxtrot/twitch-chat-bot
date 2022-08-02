@@ -19,7 +19,11 @@ client.on("message", (channel, tags, message, self) => {
   const msg = message.toLowerCase();
   if (self) return;
   //If the chatter says "hello or hello there" at any point in there message, give a classic Star Wars fan response <3
-  if (msg.indexOf("hello") >= 0 || msg.indexOf("hello there") >= 0) {
+  if (
+    msg.indexOf("hello") >= 0 ||
+    msg.indexOf("hello there") >= 0 ||
+    msg.indexOf("hullo") >= 0
+  ) {
     client.say(
       channel,
       `General @${tags.username} ...you are a bold one. thedap17Int`,
