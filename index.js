@@ -37,8 +37,8 @@ client.on("message", (channel, tags, message, self) => {
   if (msg.indexOf("echo") >= 0) {
     client.say(channel, `@${tags.username}, ${message} thedap17Whoa`);
   }
-  //If the chatter wants to see my discord, they can get the link with !discord
-  if (msg === "!discord") {
+  //If the chatter wants to see my discord, they can get the link with discord
+  if (msg.indexOf("discord") >= 0) {
     client.say(channel, `https://discord.gg/rgDwAaN thedap17Nice`);
   }
   //If the chatter mentions YouTube, then I will let them know I'm on YouTube!
