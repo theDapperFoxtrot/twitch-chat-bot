@@ -13,5 +13,14 @@
     "dotenv": "^16.0.1",
     "nodemon": "^2.0.16",
     "tmi.js": "^1.8.5"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theDapperFoxtrot/twitch-chat-bot.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/theDapperFoxtrot/twitch-chat-bot/issues"
+  },
+  "homepage": "https://github.com/theDapperFoxtrot/twitch-chat-bot#readme"
 }
