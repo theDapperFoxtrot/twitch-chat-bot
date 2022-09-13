@@ -1,3 +1,4 @@
+import client from "./tmiConfig.js";
 import { smiles } from "./constants.js";
 
 const respondInChat = (channel, onMessage, tags, message = {}) => {
