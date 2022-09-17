@@ -10,7 +10,7 @@ const constants = {
   youtube: `https://www.youtube.com/channel/UC3CshKcydQEdd2zMfd9UsAg ${smiles.ayy}`,
   github: `https://github.com/theDapperFoxtrot ${smiles.ayy}`,
   website: `https://dapperfans.com/ ${smiles.ayy}`,
-  "!today": `We're going to be working on a login form to create users ${smiles.nice}`,
+  "!today": `Reading docs and discovering how to use Twitch user authentication for our app ${smiles.nice}`,
   "!project": `We're trying to improve the Dapper Twitch experience with a chatbot that works in chat and on DapperFans.com`,
 };
 
