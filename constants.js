@@ -6,8 +6,8 @@ const smiles = {
   whoa: "thedap17Whoa",
 };
 const constants = {
-  discord: `https://discord.gg/rgDwAaN ${smiles.nice}`,
-  youtube: `https://www.youtube.com/channel/UC3CshKcydQEdd2zMfd9UsAg ${smiles.ayy}`,
+  // discord: `https://discord.gg/rgDwAaN ${smiles.nice}`,
+  youtube: `https://www.youtube.com/@theDapperFoxtrot ${smiles.ayy}`,
   github: `https://github.com/theDapperFoxtrot ${smiles.ayy}`,
   website: `https://dapperfans.com/ ${smiles.ayy}`,
   "!today": `Reading docs and discovering how to use Twitch user authentication for our app ${smiles.nice}`,

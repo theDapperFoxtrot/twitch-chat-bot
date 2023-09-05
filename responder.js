@@ -13,6 +13,13 @@ const respondInChat = (channel, onMessage, tags, message = {}) => {
     case "echo":
       response = `@${tags.username}, ${message} ${smiles.whoa}`;
       break;
+    case "!lurk":
+      response = `Welcome to the lurk zone, @${tags.username}! Get cozy, we'll talk to you soon! ${smiles.nice}`;
+      break;
+    case "!unlurk":
+      response = `Welcome back, @${tags.username}! ${smiles.ayy}`;
+      break;
+
     default:
       break;
   }

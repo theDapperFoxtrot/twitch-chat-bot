@@ -3,7 +3,9 @@ import { constants } from "./constants.js";
 import { respondInChat } from "./responder.js";
 //Provide tmi my twitch info for access
 const regExp = new RegExp(/^h(?:ello(?: there)?|[aiu]llo)$/);
-const triggers = ["discord", "youtube", "github", "website", "!today", "!project"];
+const triggers = [
+  // "discord",
+  "!lurk", "!unlurk", "youtube", "github", "website", "!today", "!project"];
 //Connect to chat
 client.connect();
 //Watch forand log message events
@@ -22,6 +24,14 @@ client.on("message", (channel, tags, message, self) => {
   //If the chatter says something that contains the word echo, then say that same thing right back. WHOA!
   if (msg.includes("echo")) {
     respondInChat(channel, "echo", tags, message);
+  }
+  // To annouce you are lurking
+  if (msg.includes("!lurk")) {
+    respondInChat(channel, "!lurk", tags);
+  }
+  // To annouce your return from lurking
+  if (msg.includes("!unlurk")) {
+    respondInChat(channel, "!unlurk", tags);
   }
 
   triggers.some((trigger) => {
