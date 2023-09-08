@@ -56,6 +56,10 @@ client.on("message", (channel, tags, message, self) => {
   if (msg.includes("echo")) {
     respondInChat(channel, "echo", tags, message);
   }
+
+  if (msg.includes("!commands")) {
+    respondInChat(channel, "!commands", tags, message);
+  }
 });
 
 
